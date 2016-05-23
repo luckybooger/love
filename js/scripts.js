@@ -8,10 +8,12 @@ $(function (){
   $(".blacknwhite").click(function(){
     $("body").removeClass();
     $("body").addClass("black-background");
-  })
+  });
 
   $(".whitenblack").click(function(){
     $("body").removeClass();
     $("body").addClass("white-background");
-  })
+  });
+
+
   });
