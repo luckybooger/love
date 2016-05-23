@@ -1,7 +1,40 @@
-img {
+#showing_love {
   display: none;
 }
 
-h1 {
-    align: center;
+.clickable {
+  cursor: pointer;
+  color: red;
+}
+.clickable:hover {
+   text-decoration: underline;
+ }
+
+.blacknwhite {
+  cursor: pointer;
+  color: red;
+}
+
+.blacknwhite:hover {
+  text-decoration: underline;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+
+.whitenblack {
+  cursor: pointer;
+  color: red;
+}
+
+.whitenblack:hover {
+  text-decoration: underline;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
 }
